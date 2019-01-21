@@ -1,0 +1,24 @@
+.Titre1 {
+		color:purple;
+		text-align:center;
+		background : yellow;
+}
+
+.Titre2 {
+		color:blue;
+		text-align:center;
+}
+
+
+.gauche
+{
+	float:left;
+	width:10%;
+}
+
+.droite
+{
+
+	width:60%;
+	overflow:auto;
+}
