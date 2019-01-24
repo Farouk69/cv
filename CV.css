@@ -2,6 +2,7 @@
 		color:purple;
 		text-align:center;
 		background : yellow;
+		background-size: contain;
 }
 
 .Titre2 {
@@ -21,4 +22,11 @@
 
 	width:60%;
 	overflow:auto;
+}
+
+.photo
+{
+	position: absolute; 
+	top: 20px; 
+	left:8px; 
 }
