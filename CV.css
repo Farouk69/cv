@@ -1,32 +1,23 @@
-.Titre1 {
-		color:purple;
-		text-align:center;
-		background : yellow;
-		background-size: contain;
-}
+.Titre1 {color:purple; text-align:center; background : yellow; background-size: contain;}
 
-.Titre2 {
-		color:blue;
-		text-align:center;
-}
+.Titre2 {color:blue; text-align:center;}
 
+.gauche{float:left;width:10%;}
 
-.gauche
-{
-	float:left;
-	width:10%;
-}
+.droite{width:60%;overflow:auto;}
 
-.droite
-{
+.photo{position: absolute; top: 20px; left:8px;}
 
-	width:60%;
-	overflow:auto;
-}
+.CG {float:left;width:30%;}
 
-.photo
-{
-	position: absolute; 
-	top: 20px; 
-	left:8px; 
-}
+.CD {width:60%;overflow:auto;}
+
+.langues{float:left;width:50%;}
+
+.hobbys{float:left;width:60%;}
+
+.logo_Sogetrel{ position: absolute; top: 1150px; left:400px;}
+
+.logo_UL{ position: absolute; top: 1420px; left:400px;}
+
+.logo_UL1{ position: absolute; top: 570px; left:280px;}
