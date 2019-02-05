@@ -1,4 +1,6 @@
-.Titre1 {color:purple; text-align:center; background : yellow; background-size: contain;}
+body{background-image:url(Log.jpg),url(Info.jpg); background-repeat:no-repeat;background-size:1349px 350px,1349px 350px;background-position:bottom right,top left;}
+
+.Titre1 {color:purple; text-align:center; background:#2ECCFA; border:4px solid yellow; background-size: contain; width:50%; position: relative;top: 10px;left:350px;}
 
 .Titre2 {color:blue; text-align:center;}
 
@@ -6,18 +8,44 @@
 
 .droite{width:60%;overflow:auto;}
 
-.photo{position: absolute; top: 20px; left:8px;}
-
-.CG {float:left;width:30%;}
-
-.CD {width:60%;overflow:auto;}
+.photo{position: absolute; top: 420px; left:1000px;}
 
 .langues{float:left;width:50%;}
 
-.hobbys{float:left;width:60%;}
+.hobbys{float:left;width:51%;/*background-color:#2ECCFA;*/}
 
-.logo_Sogetrel{ position: absolute; top: 1150px; left:400px;}
+.logo_Sogetrel{ position: absolute; top: 1680px; left:400px;}
 
-.logo_UL{ position: absolute; top: 1420px; left:400px;}
+.logo_UL{ position: absolute; top: 1920px; left:400px;}
 
-.logo_UL1{ position: absolute; top: 570px; left:280px;}
+.logo_UnivL{ position: absolute; top: 1300px; left:500px;}
+
+.logo_UL1{ position: absolute; top: 1120px; left:500px;}
+
+.logo_ENST{ position: absolute; top: 1500px; left:530px;}
+
+h2 { border:4px solid #88BB11; color:blue;text-align:center;}
+
+.titre_formation {color:red;}
+
+.liens{font-size : 14px; font-weight: normal;}
+
+.sections{text-align:left;}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.scroll-line{
+  height: 2px;
+  margin-bottom: -2px;
+  background: blue;
+  width: 0%;
+}
+
